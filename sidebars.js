@@ -648,6 +648,18 @@ module.exports = {
         'best-practices/cloud-access-control',
         'best-practices/security-controls',
         'best-practices/worker',
+        {
+          type: 'category',
+          label: 'Knowledge Hub',
+          collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'best-practices/knowledge-hub/index',
+          },
+          items: [
+            'best-practices/knowledge-hub/temporal-overview',
+          ],
+        },
       ],
     },
     {
